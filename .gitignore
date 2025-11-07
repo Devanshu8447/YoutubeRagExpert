@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+env/
+venv/
+ENV/
+.env/
+myenv/
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS files
+.DS_Store
+
+# Python package manager
+*.egg
+*.wheel
+*.egg-info/
+
+# Logs
+*.log
+
+# dotenv environment variables file
+.env
+
+# Python specific caches and temp files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Streamlit specific
+.streamlit/
+
+# Chroma DB / vector store directory (if stored locally)
+chromadb/
+
+# Data files (if you include large datasets accidentally)
+data/
