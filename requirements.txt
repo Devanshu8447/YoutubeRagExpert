@@ -1,26 +1,53 @@
-streamlit
-google-generativeai
-youtube-transcript-api==1.2.2
-langchain
-langchain-google-genai
-langchain-chroma
-python-dotenv
-google-genai
-gtts
-groq
-langchain
-langchain_community
-langchain-google-genai
-python-dotenv
-streamlit
-langchain_experimental
-sentence-transformers
-langchain_chroma
-langchainhub
-pypdf
-rapidocr-onnxruntime
-requests
+# streamlit
+# google-generativeai
+# youtube-transcript-api==1.2.2
+# langchain
+# langchain-google-genai
+# langchain-chroma
+# python-dotenv
+# google-genai
+# gtts
+# groq
+# langchain
+# langchain_community
+# langchain-google-genai
+# python-dotenv
+# streamlit
+# langchain_experimental
+# sentence-transformers
+# langchain_chroma
+# langchainhub
+# pypdf
+# rapidocr-onnxruntime
+# requests
 
-transformers 
-sentence-transformers 
-instructor-embedding
+# transformers 
+# sentence-transformers 
+# instructor-embedding
+# fpdf2
+
+# Core Streamlit application
+streamlit
+
+# LangChain and LLM Dependencies
+langchain
+langchain-community
+langchain-google-genai
+langchain-experimental
+langchainhub
+google-genai
+groq # If you use Groq as an alternative LLM
+
+# Data Processing and Embedding
+youtube-transcript-api==1.2.2
+pypdf
+fpdf2
+sentence-transformers
+langchain-chroma
+
+# Utility/Helper Packages
+python-dotenv
+gtts
+requests
+transformers
+rapidocr-onnxruntime
